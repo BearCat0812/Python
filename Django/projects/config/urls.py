@@ -20,5 +20,6 @@ from mysite.pybo import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pybo/', views.index)
+    path('pybo/', views.index),
+    path('dashboard/', views.dashboard, name='dashboard')
 ]
